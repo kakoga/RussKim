@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="hilowcss.css">
+    <title>HiLow Game</title>
+  </head>
+  <body>
+    <h1 id="HiLo">Hi-Lo Game!</h1>
+
+    <h2 id="hint">Enter your name and hit the 'Start Game' button!</h2>
+    <h3 id="motivation"></h3>
+
+    <input type = "text" id="userGuess"/>
+
+    <input type = "button" value = "Guess" id="guessButton" onclick ="game()"/>
+
+    <input type = "button" value = "Start Game" id="startGame" onclick ="buttonStartGame()"/>
+
+    <script type="text/javascript" src="hiLow.js"></script>
+
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <script type="text/javascript" src="test_dom.js"></script>
+   <title>Hi/Low Game</title>
+ </head>
+ <body>
+   <h1 id="lastGuess">Hi/Low Game</h1>
+   <h2 id="hint">Hint:</h2>
+   <input type="text" id="guess"/>
+   <input type="button" value="Guess" id="process" onclick="processGuess()"/>
+ </body>
+</html>
+
+[10:37]
+function processGuess () {
+ var guess = document.getElementById('guess').value;
+ var lastGuess = document.getElementById('lastGuess');
+ lastGuess.innerHTML = guess;
+
+ document.getElementById('guess').value = ""
+} -->
