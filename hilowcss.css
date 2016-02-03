@@ -1,18 +1,36 @@
 body {
-  background-color: #FFB38D;
+  background-color: #FF7028;
   margin: 0;
+  font-family: 'Anton', sans-serif;
 }
 
 h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
-  background-color: #8ABAEB;
+  background-color: #2566A9;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+
 }
 
 h2 {
-  background-color:
+  text-align: center;
+}
+#userGuess {
+
+  font-family: 'Anton', sans-serif;
+
+}
+#guessButton {
+  background: #69E023;
+  font-family: 'Anton', sans-serif;
+}
+
+#startGame {
+  background: #69E023;
+  font-family: 'Anton', sans-serif;
 }
